@@ -3,15 +3,15 @@ package main
 import (
 	"log"
 
-	"curso/handlers"
-	"curso/bd"
-
+	"github.com/davidrr98/api-apoyo/bd"
+	"github.com/davidrr98/api-apoyo/handlers"
 )
-func main(){
-	if !bd.ProbarConexion(){
+
+func main() {
+	if !bd.ProbarConexion() {
 		log.Fatal("Sin conexion a la BD")
 		return
 	}
 	handlers.Manejadores()
-	
+
 }

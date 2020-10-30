@@ -2,7 +2,8 @@ package bd
 
 import (
 	"context"
-	"curso/models"
+	
+	"github.com/davidrr98/api-apoyo/models"
 	"strconv"
 	"time"
 )

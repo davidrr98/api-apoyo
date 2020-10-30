@@ -3,7 +3,8 @@ package middlew
 import (
 	"net/http"
 
-	bd "curso/bd"
+	"github.com/davidrr98/api-apoyo/bd"
+	
 )
 
 func ChequeoBD(next http.HandlerFunc) http.HandlerFunc {
