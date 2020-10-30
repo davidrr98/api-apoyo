@@ -2,10 +2,11 @@ package routers
 
 import (
 	"strconv"
-	"curso/models"
+	
 	"encoding/json"
 	"net/http"
-
+	
+        "github.com/davidrr98/api-apoyo/models"
 	"github.com/davidrr98/api-apoyo/bd"
 	
 )
