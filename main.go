@@ -7,11 +7,12 @@ import (
 	"github.com/davidrr98/api-apoyo/bd"
 
 )
-func main(){
-	if !bd.ProbarConexion(){
+
+func main() {
+	if !bd.ProbarConexion() {
 		log.Fatal("Sin conexion a la BD")
 		return
 	}
 	handlers.Manejadores()
-	
+
 }
