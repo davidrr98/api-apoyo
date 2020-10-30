@@ -3,8 +3,8 @@ package main
 import (
 	"log"
 
-	"curso/handlers"
-	"curso/bd"
+	"github.com/davidrr98/api-apoyo/handlers"
+	"github.com/davidrr98/api-apoyo/bd"
 
 )
 func main(){

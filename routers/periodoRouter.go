@@ -2,11 +2,11 @@ package routers
 
 import (
 	"strconv"
-	"curso/models"
+	"github.com/davidrr98/api-apoyo/models"
 	"encoding/json"
 	"net/http"
 
-	"curso/bd"
+	"github.com/davidrr98/api-apoyo/bd"
 )
 
 func RegistroPeriodo(w http.ResponseWriter, r *http.Request) {

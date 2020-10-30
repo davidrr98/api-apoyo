@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"os"
 
-	"curso/middlew"
-	"curso/routers"
-
+	"github.com/davidrr98/api-apoyo/middlew"
+	"github.com/davidrr98/api-apoyo/routers"
+	
 	"github.com/gorilla/mux"
 	"github.com/rs/cors"
 )

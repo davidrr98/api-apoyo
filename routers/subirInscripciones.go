@@ -1,7 +1,7 @@
 package routers
 
 import (
-	"curso/bd"
+	"github.com/davidrr98/api-apoyo/bd"
 	"io"
 	"net/http"
 	"os"
